@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malino Kota Bunga</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Original navigation CSS preserved -->
+    <style>
+        .section1 {
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 20px;
+                font-size: 20px;
+            }
+            html {
+                margin: 0;
+                padding: 0;
+                background-color: #dedede;
+                scroll-behavior: smooth;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .layar-dalam {
+                width: 1000px;
+                margin: auto;
+            }
+            .layar-penuh {
+                margin: 0;
+                width: 100%;
+            }
+            nav {
+                z-index: 100;
+                color: #fff;
+                text-align: center;
+                position: fixed;
+                border-bottom: 1px solid #b1b1b1;
+                line-height: 60px;
+                width: 100%;
+            }
+            nav.putih {
+                background-color: #fff;
+            }
+            nav.putih .tombol-menu .garis {
+                background-color: #333;
+            }
+            nav.putih ul li a {
+                color: #333;
+            }
+            nav .logo img.hitam {
+                display: none;
+            }
+            nav .logo {
+                size: 20px;
+                float: left;
+                position: relative;
+                line-height: 55px;
+                text-align: center;
+            }
+            nav .logo img {
+                vertical-align: middle;
+                width: 170px;
+            }
+            nav .menu {
+                float: right;
+                height: 60px;
+                max-width: 700px;
+            }
+            nav .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            nav .menu ul li {
+                list-style-type: none;
+                float: left;
+                line-height: 60px;
+            }
+            nav ul li a {
+                color: #fff;
+                text-align: center;
+                padding: 0px 16px 0px 16px;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+            .tombol-menu {
+                position: absolute;
+                top: 1.7rem;
+                right: 1rem;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 30px;
+                height: 20px;
+            }
+            .tombol-menu .garis {
+                height: 3px;
+                background-color: #fff;
+            }
+            @media screen and (max-width: 991.98px) {
+                .layar-dalam {
+                    width: 90%;
+                }
+                nav .menu ul {
+                    display: none;
+                    margin-top: 60px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+                nav .menu ul li {
+                    width: 100%;
+                    border-bottom: 1px solid #e63d46;
+                    background-color: #fff;
+                    line-height: 40px;
+                }
+                nav .menu ul li a {
+                    color: #333;
+                }
+                .tombol-menu {
+                    display: flex;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Home Section (Unchanged) -->
+    <div class="section1">
+        <nav>
+            <div class="layar-dalam">
+                <div class="logo">
+                    <a href=""><img src="bahan/logo1.png" class="putih" alt="Malino Trip Logo"></a>
+                    <a href=""><img src="bahan/logo-hitam.png" class="hitam" alt="Malino Trip Logo"></a>
+                </div>
+                <div class="menu">
+                    <a href="#" class="tombol-menu">
+                        <span class="garis"></span>
+                        <span class="garis"></span>
+                        <span class="garis"></span>
+                    </a>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#support">Support</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="layar-penuh">
+            <header id="home">
+                <div class="overlay"></div>
+                <video class="video-bg" src="bahan/video-indonesia.mp4" autoplay muted loop></video>
+                <div class="intro">
+                    <h3>Malino Trip</h3>
+                    <p>Temukan keindahan tersembunyi, dan pesona alam Malino yang menawan<br>bukan hanya sekadar tempat, tapi pengalaman</p>
+                    <p><a href="#contact" class="tombol">MORE INFO</a></p>
+                </div>
+            </header>
+        </div>
+        <div class="garis-pembatas"></div>
+    </div>
+
+    <!-- About Us Section (Unchanged) -->
+    <div class="section2" id="aboutus">
+        <header>
+            <img src="bahan/background-bromo.jpg" class="header-image" alt="Malino Mountain Landscape">
+            <div class="header-content">
+                <h1>Tentang Malino Kota Bunga</h1>
+                <p>Menjelajahi keindahan alam dan kesejukan udara pegunungan di Malino, destinasi wisata yang mempesona di Sulawesi Selatan</p>
+            </div>
+        </header>
+        <main class="main-content">
+            <section class="about-section">
+                <div class="about-text">
+                    <h2 class="section-title">Selamat Datang di Malino</h2>
+                    <p>Malino, sebuah kota kecil di ketinggian pegunungan Sulawesi Selatan, telah lama dikenal sebagai destinasi wisata yang menawan dengan udaranya yang sejuk dan pemandangan alam yang memukau. Dijuluki "Kota Bunga", Malino menawarkan panorama hamparan bunga warna-warni yang kontras dengan hijaunya pegunungan dan kebun teh.</p>
+                    <p>Kawasan ini terletak sekitar 70 km dari Kota Makassar dengan ketinggian sekitar 1.050 mdpl, membuat suhu udara berkisar antara 15-25°C sepanjang tahun. Malino bukan hanya tentang alam yang indah, tetapi juga memiliki nilai sejarah dan budaya yang kaya sebagai tempat peristirahatan sejak zaman kolonial Belanda.</p>
+                </div>
+                <div class="about-image">
+                    <img src="bahan/trip.jpg" alt="Malino Scenic View">
+                </div>
+            </section>
+            <section>
+                <h2 class="section-title">Keunikan Malino Kota Bunga</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h3>Pegunungan Hijau</h3>
+                        <p>Dikelilingi oleh pegunungan yang hijau dengan udara sejuk dan pemandangan spektakuler yang memanjakan mata.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3>Hamparan Bunga</h3>
+                        <p>Berbagai jenis bunga tumbuh subur di Malino, menciptakan panorama warna-warni yang menakjubkan sepanjang tahun.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                        <h3>Air Terjun Indah</h3>
+                        <p>Malino memiliki beberapa air terjun yang mempesona seperti Air Terjun Takapala dan Air Terjun Seribu Sungai.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="about-section">
+                <div class="about-image">
+                    <img src="bahan/mh.jpg" alt="Malino Historical Site">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Sejarah Malino</h2>
+                    <p>Malino memiliki sejarah panjang sebagai tempat peristirahatan sejak masa kolonial Belanda. Nama "Malino" sendiri berasal dari bahasa Toraja yang berarti "angin sepoi-sepoi", menggambarkan suasana sejuk yang khas daerah ini.</p>
+                    <p>Pada tahun 1927, Gubernur Jenderal Hindia Belanda menjadikan Malino sebagai tempat peristirahatan resmi pemerintah kolonial. Banyak bangunan peninggalan Belanda masih bisa dilihat hingga sekarang, menambah nilai historis kawasan ini.</p>
+                    <p>Setelah kemerdekaan, Malino berkembang menjadi destinasi wisata favorit baik bagi wisatawan lokal maupun mancanegara yang ingin menikmati kesejukan alam pegunungan Sulawesi Selatan.</p>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-title">Visi & Misi Kami</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Visi</h3>
+                        <p>Menjadikan Malino sebagai destinasi wisata berkelas dunia yang memadukan keindahan alam, kelestarian lingkungan, dan kearifan lokal masyarakat Sulawesi Selatan.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Misi</h3>
+                        <p>1. Mengembangkan infrastruktur wisata yang berwawasan lingkungan<br>
+                           2. Melestarikan keindahan alam dan budaya Malino<br>
+                           3. Meningkatkan kesejahteraan masyarakat melalui pariwisata berkelanjutan</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h3>Nilai Kami</h3>
+                        <p>Kami berkomitmen pada pariwisata yang bertanggung jawab, menghargai alam, dan memberdayakan masyarakat lokal. Setiap pengunjung adalah bagian dari upaya pelestarian Malino untuk generasi mendatang.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="garis-pembatas"></div>
+
+    <!-- Gallery Section (Unchanged) -->
+    <div class="section5" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeri</h2>
+            <div class="gallery-grid">
+                <div><video src="bahan/video-malino.mp4" autoplay muted loop></video></div>
+                <div><video src="bahan/hutan-pinus.mp4" autoplay muted loop></video></div>
+                <div><video src="bahan/kuda.mp4" autoplay muted loop></video></div>
+                <div><video src="bahan/eropa2.mp4" autoplay muted loop></video></div>
+                <div><video src="bahan/takapala1.mp4" autoplay muted loop></video></div>
+                <div><video src="bahan/takapala2.mp4" autoplay muted loop></video></div>
+                <div><video src="bahan/villa.mp4" autoplay muted loop></video></div>
+                <div><video src="bahan/takapala4.mp4" autoplay muted loop></video></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section (Updated) -->
+    <div class="section6" id="team">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-users"></i> Tim Kami</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="bahan/muliyadi.jpg" alt="Muliyadi Photo">
+                    </div>
+                    <div class="team-info">
+                        <h3><a href="https://www.instagram.com/muliyadi.1?igsh=MW5qdm11cGk0ZzBhMA==">MULYADI.H</a></h3>
+                        <p class="role">CEO</p>
+                        <p>Pemimpin yang baik hati dan tidak sombong</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="bahan/muamar.jpg" alt="Muamar Photo">
+                    </div>
+                    <div class="team-info">
+                        <h3><a href="https://www.instagram.com/myngzz_?igsh=MWYyZDgwb3V0NmdseQ==">MUAMAR</a></h3>
+                        <p class="role">Ketua Koordinator</p>
+                        <p>Ketua yang tidak sombong</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="bahan/aviva.jpg" alt="Nur Aviva Photo">
+                    </div>
+                    <div class="team-info">
+                        <h3><a href="https://www.instagram.com/viva.avv?igsh=N2wzcXpzOTN3b3Qy">NUR AVIVA</a></h3>
+                        <p class="role">Marketing</p>
+                        <p>Pencari peserta trip</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="bahan/ummull.jpg" alt="Ummul Khairiah Photo">
+                    </div>
+                    <div class="team-info">
+                        <h3><a href="https://www.instagram.com/ummul_khairiah08?utm_source=qr&igsh=dG4xMHh5dmJtODJt">UMMUL KHAIRIAH</a></h3>
+                        <p class="role">Dokumentasi</p>
+                        <p>Berfokus pada sistem server dan database yang andal.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="bahan/syeila.jpg" alt="Syeila Rhamadani Photo">
+                    </div>
+                    <div class="team-info">
+                        <h3><a href="https://www.instagram.com/sye_ila_?igsh=MTZpeG82ejAyaDVheA==">SYEILA RHAMADANI</a></h3>
+                        <p class="role">Ketua Pelaksana</p>
+                        <p>Pelaksana acara</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="bahan/farid.jpg" alt="Muhammad Abdul Farid Photo">
+                    </div>
+                    <div class="team-info">
+                        <h3><a href="https://www.instagram.com/viva.avv?igsh=N2wzcXpzOTN3b3Qy">MUHAMMAD ABDUL FARID</a></h3>
+                        <p class="role">Spesialis Pemasaran</p>
+                        <p>Ahli dalam strategi pemasaran digital dan branding.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Support Section (Unchanged) -->
+    <div class="section3" id="support">
+        <header>
+            <div class="container">
+                <h1>Bantuan & Dukungan Wisata Malino</h1>
+                <p class="tagline">Kami siap membantu petualangan Anda</p>
+            </div>
+        </header>
+        <div class="container">
+            <div class="emergency-notice">
+                <h3><i class="fas fa-exclamation-triangle"></i> Dukungan Darurat</h3>
+                <p>Untuk bantuan darurat selama perjalanan, hubungi: <strong>112 (nomor darurat nasional)</strong> atau tim kami di <strong>+6281228455917</strong> (24 jam).</p>
+            </div>
+            <section class="support-section">
+                <h2><i class="fas fa-question-circle"></i> FAQ (Pertanyaan Umum)</h2>
+                <div class="faq-item">
+                    <h3>Apa yang harus saya bawa untuk pendakian?</h3>
+                    <p>Kami merekomendasikan untuk membawa: air minum yang cukup, makanan ringan berenergi tinggi, pakaian lapis, jas hujan, senter, kotak P3K, peta, dan perlengkapan penting lainnya sesuai kebutuhan perjalanan Anda.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Bagaimana jika cuaca buruk saat perjalanan?</h3>
+                    <p>Kami memantau kondisi cuaca secara berkala. Jika perjalanan harus dibatalkan karena alasan keamanan, kami akan menginformasikan Anda secepat mungkin dan menawarkan opsi penjadwalan ulang atau pengembalian dana.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Apakah ada panduan lokal yang tersedia?</h3>
+                    <p>Ya, kami menyediakan panduan berpengalaman yang mengenal medan dengan baik. Panduan dapat diatur sebelumnya melalui pemesanan online atau langsung di lokasi (tergantung ketersediaan).</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Bagaimana kebijakan pembatalan?</h3>
+                    <p>Pembatalan lebih dari 7 hari sebelum tanggal perjalanan mendapatkan pengembalian dana 100%. Pembatalan 3-7 hari sebelumnya mendapatkan 50% pengembalian. Pembatalan kurang dari 3 hari tidak dapat dikembalikan.</p>
+                </div>
+            </section>
+            <section class="support-section">
+                <h2><i class="fas fa-paper-plane"></i> Formulir Pertanyaan</h2>
+                <div class="contact-form">
+                    <form action="/submit-support" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking">Nomor Booking (jika ada):</label>
+                            <input type="text" id="booking" name="booking">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Jenis Pertanyaan:</label>
+                            <select id="subject" name="subject">
+                                <option value="booking">Pertanyaan Pemesanan</option>
+                                <option value="facilities">Fasilitas Wisata</option>
+                                <option value="safety">Keselamatan dan Keamanan</option>
+                                <option value="payment">Pembayaran</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan Anda:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                       <div class="kirim-pesan"> <a href="confirm.html" class="btn">Kirim Pesan</a> 
+                    </div>
+                    </form>
+                </div>
+            </section>
+            <section class="support-section">
+                <h2><i class="fas fa-exclamation-circle"></i> Tips Keselamatan</h2>
+                <ul>
+                    <li>Selalu periksa perkiraan cuaca sebelum berangkat</li>
+                    <li>Beritahu keluarga/teman tentang rencana perjalanan Anda</li>
+                    <li>Bawa perlengkapan P3K dasar</li>
+                    <li>Patuhi semua peraturan dan rambu di area wisata</li>
+                    <li>Jaga kebersihan lingkungan dan jangan meninggalkan sampah</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Contact Section (Updated) -->
+    <div class="section4" id="contact">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-life-ring"></i> Hubungi Kami</h2>
+            <div class="contact-grid">
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>malinotrip0@gmail.com</p>
+                    <p>Respon dalam 24 jam</p>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Telepon</h3>
+                    <p>+6281228455917</p>
+                    <p>Senin-Jumat, 08:00-17:00 WITA</p>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Live Chat</h3>
+                    <p>Tersedia di website kami</p>
+                    <p>08:00-22:00 WITA setiap hari</p>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Kantor Kami</h3>
+                    <p>Jl. Poros Malino KM 12</p>
+                    <p>Gowa, Sulawesi Selatan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Unchanged) -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Wisata Malino. Semua hak dilindungi.</p>
+            <p>Dedicated to preserving nature's beauty for future generations.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/malinotrip?igsh=MTNyMHJzZTI3czVhNA=="><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@malinotrip?si=PA_NgxiUY02GIr3s"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
