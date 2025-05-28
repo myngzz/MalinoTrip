@@ -1,2 +1,2 @@
 # MalinoTrip
-wed
+web
