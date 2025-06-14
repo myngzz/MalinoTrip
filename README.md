@@ -1,2 +1,2 @@
 # MalinoTrip
-web
+Website ini dibuat untuk memenuhi tugas MID Test
